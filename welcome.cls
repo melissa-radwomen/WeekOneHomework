@@ -24,7 +24,6 @@ public with sharing class Welcome {
         When you're done, save this file so that it is compiled and stored in Salesforce.  */
 
 		Integer i;
-        
 
 		i = 2;
 
@@ -38,13 +37,28 @@ public with sharing class Welcome {
 
     }
 
-	public static void letsTalkAboutIndents() {
-        //As you look through the sample code in this org, and other places, you'll probably notice it looks pretty tidy
-        //That is the magic of indenting.  Through simply keeping logical groupings indented the same number of spaces
-        //and then indenting sub-sections further, you always know what section you're in
+       //You do this part!
 
-        //Take a look at different classes in the sample code for this org, and even if you're not quite sure what it's doing yet
-        //you should see that the indenting makes logical groupings easier.
-    }
+        //1.  Declare three primitives variables, an Integer, a String and a Decimal
+        	Integer ing;
+                String str;
+                Decimal decb;
+
+        //2.  Assign values to your three new variables
+        	ing = 3;
+                str = 'Rad Women are the Best';
+                decb = 5.5;
+
+        //3.  Print out your variables to the debug log
+        	System.debug('What is ing? ing is equal to: ' + ing);
+        	System.debug('What is str? str is equal to: ' + str);
+		System.debug('What is decb? decb is equal to: ' + decb);
+
+
+        //4.  Declare an integer variable and assign a value in the same line
+        	Integer intg = 25;
+
+        //5.  Print out your integer to the debug log
+		System.debug('What is intg? intg is equal to: ' + intg);
 
 }
